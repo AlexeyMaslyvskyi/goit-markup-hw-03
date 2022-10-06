@@ -26,10 +26,8 @@ h3,
 h4,
 h5,
 h6,
-a,
 p,
-ul,
-li {
+ul {
   margin: 0;
   padding: 0;
 }
@@ -120,6 +118,7 @@ li {
   color: var(--white);
 }
 .hero-btn {
+  padding: 10px 32px;
   margin: 0 auto;
   margin-top: 20px;
 
@@ -138,6 +137,7 @@ li {
   color: var(--white);
   background: var(--accent);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: none;
   border-radius: 4px;
   cursor: pointer;
 }
@@ -224,7 +224,15 @@ li {
 }
 /*portfolio*/
 /*buttons*/
+.filters {
+  display: flex;
+  justify-content: center;
+}
+.filters li:not(:last-child) {
+  margin-right: 8px;
+}
 .filters button {
+  padding: 6px 22px;
   font-family: var(--font-btn);
   font-style: normal;
   font-weight: 500;
