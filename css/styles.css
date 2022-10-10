@@ -10,11 +10,6 @@
   --headfoot: #2f303a;
   --font-btn: inherit;
 }
-*,
-::after,
-::before {
-  box-sizing: border-box;
-}
 
 body {
   font-family: Roboto, sans-serif;
@@ -68,6 +63,7 @@ ul {
 }
 
 .nav-links .link {
+  display: block;
   padding: 32px 0;
   text-decoration: none;
   font-style: normal;
